@@ -49,11 +49,11 @@ Great, you got this far. You're almost there!
 ## Collision Pitfalls
 
  - `OnCollisionEnter(Collision)` only fires if:
-   - One of the objects has a `Rigidbody` attached
-   - The `Rigidbody` component appears *above* the `Collision` component
-   - "Is Kinematic?" is *unticked*
+   - One of the objects has a `Rigidbody` component attached.
+   - The `Rigidbody` component appears *above* the `Collision` component.
+   - "Is Kinematic?" is *unticked*.
    - "Is Trigger?" is *unticked*.
- - `OnTriggerEnter` only fires if "Is Trigger?" is ticked. 
+ - `OnTriggerEnter(Collider)` only fires if "Is Trigger?" is ticked. 
 
 ## Common Pitfalls
 
